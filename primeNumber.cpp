@@ -7,8 +7,8 @@ bool primeNumber(int num)
 	{
 		if(num % 2==0)
 		
-			return false;		
-		    	return true;		
+		return false;		
+		    return true;		
 	}
 }
 
@@ -21,8 +21,10 @@ int main()
 	{
 		cout<<" prime number ";
 	}
-	else{
-		cout<<" not prime number";
+	else
+	{
+	   cout<<" not prime number";
 	}
+	return  0;
 	
 }
